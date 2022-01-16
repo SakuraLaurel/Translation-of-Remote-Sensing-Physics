@@ -1,0 +1,36 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}简介与背景}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}方法}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}卫星滞后模型}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}剩余蓄热}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 数据源、派生变量，以及模型构建与验证处理的原理图}}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}梯度提升回归树(GBRT)}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}降尺度步骤}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}误差度量}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}地理环境与数据选择}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}研究区域}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}地表通量站点}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 通量站分布和NLCD纽约市土地覆盖地图}}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}GOES-16卫星数据}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}土地覆盖和数字高程模型}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}卫星波段和剩余蓄热的关系}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}结果与讨论}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}训练与验证}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 地面站剩余蓄热通量与最近的GOES-16所有波段像元间的相关性。短波波段在白天与蓄热通量负相关，在夜间的相关性很小；而长波波段在白天与蓄热通量正相关、在夜间呈负相关。这些相关关系对辐亮度波段可用于计算蓄热通量的假设至关重要。}}{9}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 2019年夏天的训练和验证数据划分分析}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces RMSE是训练数据集和独立数据集中训练规模的函数。训练数据集和独立数据集都被分为了训练阶段和验证阶段。可见在验证阶段RMSE如预期般随着训练规模的增加而降低}}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}纽约市案例研究}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces NYC通量站点和使用GOES-16卫星的模型表现}}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}从$2km$降尺度到$320m$}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 使用卫星滞后模型对$\Delta Q_s$进行时间重建}}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}蓄热的空间表现}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 对STAT（左）和QUEE（右）站点进行降尺度的表现。从$2km$降尺度到$320m$使得RMSE在QUEE的像元降低了$5.5W\cdot m^{-2}$，而在STAT像元没有变化，部分验证了降尺度程序的准确性}}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces (a)白天的蓄热代表，8月24日EDT时间12:00的$\Delta Q_s$。(b)夜间蓄热的代表，8月24日EDT时间1:30的蓄热。}}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces (a)日出之后（8月27日EDT时间7:30）蓄热捕捉到的城市对地表加热响应变化(b)8月27日EDT时间18:30日落后不久，蓄热开始逆转（过零点）}}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}与文献的对比}{14}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 基于卫星的滞后模型与目标滞后模型方法在多个城市地表净辐射数据的对比。加粗部分为本实验降尺度与最近NYC地面站比较的结果。表格按RMSE升序排列。}}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}结论}{16}{}\protected@file@percent }
+\bibstyle{elsarticle-num}
+\bibdata{<your-bib-database>}
+\newlabel{lastpage}{{5}{24}}
+\gdef \@abspage@last{24}
